@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notebook xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="Notebook.xsd">
+
+<offices>
+	<office code="01">New York</office>
+	<office code="02">Tula</office>
+</offices>
+
+
+
+<person id="q1" office="01">
+	<name>
+		<first>John</first>
+		<surname>Smith</surname>
+	</name>
+	<address>
+		<city>New York</city>
+		<street>Wall Street</street>
+		<index>010101</index>
+	</address>
+	<phones>
+		<phone type="work">123-45-67</phone>
+		<phone type="home">987-65-43</phone>
+	</phones>
+</person>
+
+<person id="q2" office="02">
+	<name>
+		<first>Ivan</first>
+		<surname>Petrov</surname>
+	</name>
+	<address>
+		<city>Tula</city>
+		<street>Lenina</street>
+		<index>020202</index>
+	</address>
+	<phones>
+		<phone type="work">234-56-78</phone>
+	</phones>
+</person>
+
+
+</notebook>
